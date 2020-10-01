@@ -20,5 +20,5 @@ the instantiation process), structure (how classes and objects are composed to f
 larger structures) and behavioral patterns (the assignment of responsibilities between
 objects).
 
-[linked lists]: https://github.com/mthnglac/CodingFundamentals/tree/master/linked-lists
-[design patterns]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns
+[Linked Lists]: https://github.com/mthnglac/CodingFundamentals/tree/master/linked-lists
+[Design Patterns]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns
