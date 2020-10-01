@@ -1,6 +1,6 @@
 ## Typescript Design Patterns
 
-this list shows the patterns and solutions that I have implemented on typescript.
+This list shows the patterns and solutions that I have implemented on typescript.
 The way of writing the code is completely subjective; Try to grab something, that's enough,
 my goal is to be useful to you.
 
