@@ -13,3 +13,6 @@ larger structures) and behavioral patterns (the assignment of responsibilities b
 objects).
 
 - [Typescript]
+
+
+[Typescript]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript
