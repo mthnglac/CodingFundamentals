@@ -1,5 +1,4 @@
-## Linked Lists in Different Languages
+## Linked List in Typescript
 
-- [Typescript]
+Just basics of the concept.
 
-[Typescript]: https://github.com/mthnglac/CodingFundamentals/tree/master/data-structures/linked-lists/typescript
