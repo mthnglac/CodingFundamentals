@@ -10,6 +10,7 @@ my goal is to be useful to you.
 - [Factory], subclass of object that is instantiated
 - [Abstract Factory], families of product objects
 - [Builder], how a composite object gets created
+- [Dependency Injection], technique in which an object receives other objects that it depends on.
 
 #### Creational Patterns
 
@@ -41,3 +42,4 @@ Design patterns in this repository are based on
 [iterator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/iterator
 [memento]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/memento
 [singleton]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/singleton
+[Dependency Injection]:
