@@ -34,12 +34,13 @@ Design patterns in this repository are based on
 [head first: design patterns]: http://www.headfirstlabs.com/books/hfdp/
 [wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[abstract factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/abstract-factory
-[builder]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/builder
-[chain of responsibility]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/chain-of-responsibility
-[command]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/command
-[factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/factory
-[iterator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/iterator
-[memento]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/memento
-[singleton]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/typescript/singleton
-[Dependency Injection]:
+[abstract factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/abstract-factory
+[builder]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/builder
+[chain of responsibility]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/chain-of-responsibility
+[command]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/command
+[factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/factory
+[iterator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/iterator
+[memento]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/memento
+[singleton]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/singleton
+[Dependency Injection]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/dependency-injection
+
