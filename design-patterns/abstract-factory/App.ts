@@ -1,9 +1,9 @@
-import Factory from "./Factory";
+import IFactory from "./IFactory";
 import ConcreteFactoryX from "./ConcreteFactoryX";
 import ConcreteFactoryY from "./ConcreteFactoryY";
 
 export default class App {
-  public static clientCode(factory: Factory) {
+  public static clientCode(factory: IFactory) {
     const productA = factory.createProductA();
     const productB = factory.createProductB();
 

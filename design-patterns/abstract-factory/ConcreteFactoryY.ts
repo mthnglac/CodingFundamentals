@@ -1,15 +1,15 @@
-import Factory from "./Factory";
+import IFactory from "./IFactory";
 import ConcreteProductAY from "./ConcreteProductAY";
 import ConcreteProductBY from "./ConcreteProductBY";
-import ProductA from "./ProductA";
-import ProductB from "./ProductB";
+import IProductA from "./IProductA";
+import IProductB from "./IProductB";
 
-export default class ConcreteFactoryY implements Factory {
-  public createProductA(): ProductA {
+export default class ConcreteFactoryY implements IFactory {
+  public createProductA(): IProductA {
     return new ConcreteProductAY();
   }
 
-  public createProductB(): ProductB {
+  public createProductB(): IProductB {
     return new ConcreteProductBY();
   }
 }
