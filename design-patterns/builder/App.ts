@@ -2,7 +2,7 @@ import Director from "./Director";
 import ConcreteBuilder from "./ConcreteBuilder";
 
 export default class App {
-  public clientCode(director: Director) {
+  public static clientCode(director: Director) {
     const builder = new ConcreteBuilder();
     director.setBuilder(builder);
 
@@ -21,8 +21,6 @@ export default class App {
   }
 }
 
-const z: App = new App();
-
 const director = new Director();
 
-z.clientCode(director);
+App.clientCode(director);

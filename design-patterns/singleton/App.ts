@@ -1,7 +1,7 @@
 import Singleton from "./Singleton";
 
 export default class App {
-  public clientCode() {
+  public static clientCode() {
     const s1 = Singleton.Instance;
     const s2 = Singleton.Instance;
 
@@ -13,5 +13,4 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientCode();
+App.clientCode();

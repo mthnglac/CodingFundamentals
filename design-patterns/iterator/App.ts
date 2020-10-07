@@ -1,7 +1,7 @@
 import WordsCollection from "./WordsCollection";
 
 export default class App {
-  public clientCode() {
+  public static clientCode() {
     const collection = new WordsCollection();
     collection.addItem("First");
     collection.addItem("Secind");
@@ -23,5 +23,4 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientCode();
+App.clientCode();

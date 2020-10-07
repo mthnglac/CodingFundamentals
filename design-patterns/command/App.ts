@@ -4,7 +4,7 @@ import SimpleCommand from "./SimpleCommand";
 import ComplexCommand from "./ComplexCommand";
 
 export default class App {
-  public clientCode() {
+  public static clientCode() {
     const invoker = new Invoker();
     invoker.setOnStart(new SimpleCommand("Say Hi!"));
 
@@ -17,5 +17,4 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientCode();
+App.clientCode();

@@ -3,7 +3,7 @@ import Component1 from './Component1';
 import Component2 from './Component2';
 
 export default class App {
-  public clientApp(): void {
+  public static clientApp(): void {
     const c1: Component1 = new Component1();
     const c2: Component2 = new Component2();
     const mediator: ConcreteMediator = new ConcreteMediator(c1, c2);
@@ -18,6 +18,5 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientApp();
+App.clientApp();
 

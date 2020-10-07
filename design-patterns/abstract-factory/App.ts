@@ -3,7 +3,7 @@ import ConcreteFactoryX from "./ConcreteFactoryX";
 import ConcreteFactoryY from "./ConcreteFactoryY";
 
 export default class App {
-  public clientCode(factory: Factory) {
+  public static clientCode(factory: Factory) {
     const productA = factory.createProductA();
     const productB = factory.createProductB();
 
@@ -12,13 +12,12 @@ export default class App {
   }
 }
 
-const z: App = new App();
 console.log("Client: Testing client code with the first factory type...");
-z.clientCode(new ConcreteFactoryX());
+App.clientCode(new ConcreteFactoryX());
 
 console.log("");
 
 console.log(
   "Client: Testing the same client code with the second factory type..."
 );
-z.clientCode(new ConcreteFactoryY());
+App.clientCode(new ConcreteFactoryY());

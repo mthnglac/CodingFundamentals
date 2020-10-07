@@ -2,7 +2,7 @@ import Originator from './Originator';
 import Caretaker from './Caretaker';
 
 export default class App {
-  public clientCode() {
+  public static clientCode() {
     const originator = new Originator('Super-duper-super-puper-super.');
     const caretaker = new Caretaker(originator);
 
@@ -26,5 +26,4 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientCode();
+App.clientCode();

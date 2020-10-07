@@ -3,7 +3,7 @@ import Product from "./Product";
 import ConcreteCreator from "./ConcreteCreator";
 
 export default class App {
-  public clientCode() {
+  public static clientCode() {
     const creator: Creator = new ConcreteCreator();
 
     const p1: Product = creator.createProductA();
@@ -13,5 +13,4 @@ export default class App {
   }
 }
 
-const z: App = new App();
-z.clientCode();
+App.clientCode();
