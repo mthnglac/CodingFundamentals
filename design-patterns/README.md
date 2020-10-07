@@ -44,4 +44,4 @@ Design patterns in this repository are based on
 [memento]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/memento
 [singleton]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/singleton
 [Dependency Injection]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/dependency-injection
-
+[Mediator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/mediator
