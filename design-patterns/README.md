@@ -20,6 +20,7 @@ my goal is to be useful to you.
 
 - [Command], when and how a request is fulfilled
 - [Iterator], how an aggregate's elements are accessed
+- [Mediator], how and which objects interact with each other
 - [Memento], what private information is stored outside an object, and when
 
 ### References
