@@ -1,13 +1,14 @@
-import Iterator from "./Iterator";
+import IIterator from "./IIterator";
 import WordsCollection from "./WordsCollection";
 
-export default class AlphabeticalOrderIterator implements Iterator<string> {
+export default class AlphabeticalOrderIterator implements IIterator<string> {
   private collection: WordsCollection;
-  private position: number = 0;
-  private reverse: boolean = false;
+  private position: number;
+  private reverse: boolean;
 
   constructor(collection: WordsCollection, reverse: boolean = false) {
     this.collection = collection;
+    this.position = 0;
     this.reverse = reverse;
 
     if (reverse) {

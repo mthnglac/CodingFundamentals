@@ -1,8 +1,8 @@
-import Iterator from "./Iterator";
-import Aggregator from "./Aggregator";
+import IIterator from "./IIterator";
+import IAggregator from "./IAggregator";
 import AlphabeticalOrderIterator from "./AlphabeticalOrderIterator";
 
-export default class WordsCollection implements Aggregator {
+export default class WordsCollection implements IAggregator {
   private items: string[] = [];
 
   public getItems(): string[] {
@@ -17,11 +17,11 @@ export default class WordsCollection implements Aggregator {
     this.items.push(item);
   }
 
-  public getIterator(): Iterator<string> {
+  public getIterator(): IIterator<string> {
     return new AlphabeticalOrderIterator(this);
   }
 
-  public getReverseIterator(): Iterator<string> {
+  public getReverseIterator(): IIterator<string> {
     return new AlphabeticalOrderIterator(this, true);
   }
 }

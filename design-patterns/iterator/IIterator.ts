@@ -1,4 +1,4 @@
-export default interface Iterator<T> {
+export default interface IIterator<T> {
   current(): T;
   next(): T;
   key(): number;
