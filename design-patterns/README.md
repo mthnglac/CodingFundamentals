@@ -1,8 +1,8 @@
 ## Typescript Design Patterns
 
-This list shows the patterns and solutions that I have implemented on typescript.
-The way of writing the code is completely subjective; Try to grab something, that's enough,
-my goal is to be useful to you.
+This list shows the patterns and solutions that I have implemented on
+typescript.  The way of writing the code is completely subjective; Try to grab
+something, that's enough, my goal is to be useful to you.
 
 #### Creational Patterns
 
