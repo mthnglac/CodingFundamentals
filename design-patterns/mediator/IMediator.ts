@@ -1,3 +1,3 @@
-export default interface Mediator {
+export default interface IMediator {
   notify(sender: object, event: string): void;
 }
