@@ -24,6 +24,7 @@ something, that's enough, my goal is to be useful to you.
 - [Mediator], how and which objects interact with each other
 - [Memento], what private information is stored outside an object, and when
 - [Observer], how the dependent objects stay up to date
+- [State], states of an object
 
 ### References
 
@@ -49,3 +50,4 @@ Design patterns in this repository are based on
 [Mediator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/mediator
 [Interpreter]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/interpreter
 [Observer]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/observer
+[State]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/state
