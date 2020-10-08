@@ -1,14 +1,14 @@
-import Command from "./Command";
+import ICommand from "./ICommand";
 
 export default class Invoker {
-  private onStart: Command;
-  private onFinish: Command;
+  private onStart: ICommand;
+  private onFinish: ICommand;
 
-  public setOnStart(command: Command): void {
+  public setOnStart(command: ICommand): void {
     this.onStart = command;
   }
 
-  public setOnFinish(command: Command): void {
+  public setOnFinish(command: ICommand): void {
     this.onFinish = command;
   }
 
@@ -26,7 +26,7 @@ export default class Invoker {
     }
   }
 
-  private isCommand(object): object is Command {
+  private isCommand(object): object is ICommand {
     return object.execute !== undefined;
   }
 }

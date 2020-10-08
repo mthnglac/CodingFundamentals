@@ -1,7 +1,7 @@
-import Builder from "./Builder";
+import IBuilder from "./IBuilder";
 import Product from "./Product";
 
-export default class ConcreteBuilder implements Builder {
+export default class ConcreteBuilder implements IBuilder {
   private product: Product;
 
   constructor() {

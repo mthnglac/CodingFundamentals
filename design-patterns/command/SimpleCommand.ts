@@ -1,6 +1,6 @@
-import Command from "./Command";
+import ICommand from "./ICommand";
 
-export default class SimpleCommand implements Command {
+export default class SimpleCommand implements ICommand {
   private payload: string;
 
   constructor(payload: string) {

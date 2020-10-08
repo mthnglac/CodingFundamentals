@@ -1,7 +1,7 @@
 import Receiver from "./Receiver";
-import Command from "./Command";
+import ICommand from "./ICommand";
 
-export default class ComplexCommand implements Command {
+export default class ComplexCommand implements ICommand {
   private receiver: Receiver;
   private a: string;
   private b: string;
