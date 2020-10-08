@@ -1,8 +1,8 @@
-import Memento from './Memento';
+import IMemento from './IMemento';
 import Originator from './Originator';
 
 export default class Caretaker {
-  private mementos: Memento[] = [];
+  private mementos: IMemento[] = [];
   private originator: Originator;
 
   constructor(originator: Originator) {
