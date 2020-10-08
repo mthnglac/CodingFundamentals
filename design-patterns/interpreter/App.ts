@@ -1,13 +1,13 @@
-import AbstractExpression from './AbstractExpression';
+import IExpression from './IExpression';
 import TerminalExpression from './TerminalExpression';
 import NonTerminalExpression from './NonTerminalExpression';
 import Context from './Context';
 
 export default class App {
   public static clientApp(): void {
-    const A: AbstractExpression = new TerminalExpression("A");
-    const B: AbstractExpression = new TerminalExpression("B");
-    const exp: AbstractExpression = new NonTerminalExpression(A, B);
+    const A: IExpression = new TerminalExpression("A");
+    const B: IExpression = new TerminalExpression("B");
+    const exp: IExpression = new NonTerminalExpression(A, B);
 
     const context: Context = new Context();
     context.setMap("A", true);

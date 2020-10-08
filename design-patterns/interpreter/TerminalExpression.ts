@@ -1,11 +1,10 @@
-import AbstractExpression from './AbstractExpression';
+import IExpression from './IExpression';
 import Context from './Context';
 
-export default class TerminalExpression extends AbstractExpression {
+export default class TerminalExpression implements IExpression {
   private readonly value: string;
 
   constructor(value: string) {
-    super();
     this.value = value;
   }
 

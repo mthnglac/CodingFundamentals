@@ -1,12 +1,11 @@
-import AbstractExpression from './AbstractExpression';
+import IExpression from './IExpression';
 import Context from './Context';
 
-export default class NonTerminalExpression extends AbstractExpression {
-  private readonly lop: AbstractExpression;
-  private readonly rop: AbstractExpression;
+export default class NonTerminalExpression implements IExpression {
+  private readonly lop: IExpression;
+  private readonly rop: IExpression;
 
-  constructor(left: AbstractExpression, right: AbstractExpression) {
-    super();
+  constructor(left: IExpression, right: IExpression) {
     this.lop = left;
     this.rop = right;
   }
