@@ -13,8 +13,7 @@ export default class App {
     context.setMap("A", true);
     context.setMap("B", false);
 
-    console.log(`${context.getMap("A")} + " AND " + ${context.getMap("B")}`);
-    console.log(` = ${exp.interpret(context)}`);
+    console.log(`${context.getMap("A")} AND ${context.getMap("B")} = ${exp.interpret(context)}`);
   }
 }
 
