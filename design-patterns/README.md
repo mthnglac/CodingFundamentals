@@ -19,6 +19,7 @@ something, that's enough, my goal is to be useful to you.
 #### Behavioral Patterns
 
 - [Command], when and how a request is fulfilled
+- [Interpreter], grammar and interpretation of a language
 - [Iterator], how an aggregate's elements are accessed
 - [Mediator], how and which objects interact with each other
 - [Memento], what private information is stored outside an object, and when
@@ -45,3 +46,4 @@ Design patterns in this repository are based on
 [singleton]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/singleton
 [Dependency Injection]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/dependency-injection
 [Mediator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/mediator
+[Interpreter]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/interpreter
