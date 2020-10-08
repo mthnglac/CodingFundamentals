@@ -48,3 +48,4 @@ Design patterns in this repository are based on
 [Dependency Injection]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/dependency-injection
 [Mediator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/mediator
 [Interpreter]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/interpreter
+[Observer]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/observer
