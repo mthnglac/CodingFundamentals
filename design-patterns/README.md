@@ -36,9 +36,9 @@ Design patterns in this repository are based on
 [wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
 [abstract factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/abstract-factory
-[builder]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/builder
 [chain of responsibility]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/chain-of-responsibility
 [command]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/command
+[builder]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/builder
 [factory]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/factory
 [iterator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/iterator
 [memento]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/memento
