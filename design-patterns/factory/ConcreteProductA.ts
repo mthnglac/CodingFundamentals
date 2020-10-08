@@ -1,6 +1,6 @@
-import Product from "./Product";
+import IProduct from "./IProduct";
 
-export default class ConcreteProductA implements Product {
+export default class ConcreteProductA implements IProduct {
   public getName(): string {
     return "type A";
   }
