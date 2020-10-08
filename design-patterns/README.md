@@ -12,12 +12,9 @@ something, that's enough, my goal is to be useful to you.
 - [Builder], how a composite object gets created
 - [Dependency Injection], technique in which an object receives other objects that it depends on.
 
-#### Creational Patterns
-
-- [Chain of Responsibility], object that can fulfill a request
-
 #### Behavioral Patterns
 
+- [Chain of Responsibility], object that can fulfill a request
 - [Command], when and how a request is fulfilled
 - [Interpreter], grammar and interpretation of a language
 - [Iterator], how an aggregate's elements are accessed
