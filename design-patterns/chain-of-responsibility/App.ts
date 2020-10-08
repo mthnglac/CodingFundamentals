@@ -1,10 +1,10 @@
-import Handler from "./Handler";
+import IHandler from "./IHandler";
 import MonkeyHandler from "./MonkeyHandler";
 import SquirrelHandler from "./SquirrelHandler";
 import DogHandler from "./DogHandler";
 
 export default class App {
-  public static clientCode(handler: Handler) {
+  public static clientCode(handler: IHandler) {
     const foods = ["Nut", "Banana", "Cup of coffee"];
 
     for (const food of foods) {

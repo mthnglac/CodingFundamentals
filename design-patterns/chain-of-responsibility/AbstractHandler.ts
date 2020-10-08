@@ -1,9 +1,9 @@
-import Handler from "./Handler";
+import IHandler from "./IHandler";
 
-export default abstract class AbstractHandler implements Handler {
-  private nextHandler: Handler;
+export default abstract class AbstractHandler implements IHandler {
+  private nextHandler: IHandler;
 
-  public setNext(handler: Handler): Handler {
+  public setNext(handler: IHandler): IHandler {
     this.nextHandler = handler;
     return handler;
   }
