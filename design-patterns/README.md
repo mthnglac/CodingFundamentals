@@ -23,6 +23,7 @@ something, that's enough, my goal is to be useful to you.
 - [Observer], how the dependent objects stay up to date
 - [State], states of an object
 - [Strategy], an algorithm
+- [Template Method], steps of an algorithm
 
 ### References
 
@@ -50,3 +51,4 @@ Design patterns in this repository are based on
 [Observer]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/observer
 [State]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/state
 [Strategy]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/strategy
+[Template Method]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/template-method
