@@ -24,6 +24,7 @@ something, that's enough, my goal is to be useful to you.
 - [State], states of an object
 - [Strategy], an algorithm
 - [Template Method], steps of an algorithm
+- [Visitor], operations that can be applied to objects without changing their classes
 
 ### References
 
@@ -52,3 +53,4 @@ Design patterns in this repository are based on
 [State]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/state
 [Strategy]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/strategy
 [Template Method]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/template-method
+[Visitor]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/visitor
