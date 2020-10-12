@@ -15,6 +15,7 @@ something, that's enough, my goal is to be useful to you.
 #### Structural Patterns
 
 - [Adapter], interface to an object
+- [Bridge], implementation of an object
 
 #### Behavioral Patterns
 
@@ -59,3 +60,4 @@ Design patterns in this repository are based on
 [Template Method]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/template-method
 [Visitor]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/visitor
 [Adapter]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/adapter
+[Bridge]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/bridge
