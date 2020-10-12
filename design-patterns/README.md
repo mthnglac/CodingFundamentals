@@ -12,6 +12,10 @@ something, that's enough, my goal is to be useful to you.
 - [Builder], how a composite object gets created
 - [Dependency Injection], technique in which an object receives other objects that it depends on.
 
+#### Structural Patterns
+
+- [Adapter], interface to an object
+
 #### Behavioral Patterns
 
 - [Chain of Responsibility], object that can fulfill a request
@@ -54,3 +58,4 @@ Design patterns in this repository are based on
 [Strategy]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/strategy
 [Template Method]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/template-method
 [Visitor]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/visitor
+[Adapter]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/adapter
