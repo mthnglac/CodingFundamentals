@@ -20,6 +20,7 @@ something, that's enough, my goal is to be useful to you.
 - [Decorator], responsibilities of an object without subclassing
 - [Facade], interface to a subssystem
 - [Flyweight], storage consts of objects
+- [Proxy], how an object is accessed (its location)
 
 #### Behavioral Patterns
 
@@ -69,3 +70,4 @@ Design patterns in this repository are based on
 [Decorator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/decorator
 [Facade]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/facade
 [Flyweight]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/flyweight
+[Proxy]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/proxy
