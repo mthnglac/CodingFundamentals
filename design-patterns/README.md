@@ -18,6 +18,7 @@ something, that's enough, my goal is to be useful to you.
 - [Bridge], implementation of an object
 - [Composite], structure and composition of an object
 - [Decorator], responsibilities of an object without subclassing
+- [Facade], interface to a subssystem
 
 #### Behavioral Patterns
 
@@ -65,3 +66,4 @@ Design patterns in this repository are based on
 [Bridge]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/bridge
 [Composite]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/composite
 [Decorator]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/decorator
+[Facade]: https://github.com/mthnglac/CodingFundamentals/tree/master/design-patterns/facade
