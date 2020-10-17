@@ -8,4 +8,7 @@ If the target value is greater than the element, the search continues in the upp
 half of the array. By doing this, the algorithm eliminates the half in which the
 target value cannot lie in each iteration.
 
-[binary search]: https://github.com/mthnglac/CodingFundamentals/tree/master/algorithms/binary-search
+## [Graph Search / Graph Traversal]
+
+[Binary Search]: https://github.com/mthnglac/CodingFundamentals/tree/master/algorithms/binary-search
+[Graph Search / Graph Traversal]: https://github.com/mthnglac/CodingFundamentals/tree/master/algorithms/graph-search
