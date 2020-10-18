@@ -1,4 +1,5 @@
 import BreadthFirstSearch from "./BreadthFirstSearch";
+import DepthFirstSearch from "./DepthFirstSearch";
 
 export default class App {
   private adjacencyList: Map<string, string[]>;
@@ -35,10 +36,18 @@ export default class App {
     this.routes.forEach((route) => this.addEdge(route[0], route[1]));
 
     console.log(this.adjacencyList);
+
+    console.log('');
     console.log("---------------------");
 
     const brf: BreadthFirstSearch = new BreadthFirstSearch(this.adjacencyList);
     brf.search("PHX");
+
+    console.log('');
+    console.log("---------------------");
+
+    const dfs: DepthFirstSearch = new DepthFirstSearch(this.adjacencyList);
+    dfs.search("PHX");
   }
 }
 

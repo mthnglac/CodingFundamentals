@@ -21,11 +21,11 @@ export default class BreadthFirstSearch {
         if (destinations) {
           for (const destination of destinations) {
             if (destination === "BKK") {
-              console.log("BKK found!!!!");
+              console.log("BFS found Bangkok!!!");
             } else if (!this.visited.has(destination)) {
               this.visited.add(destination);
               this.queue.push(destination);
-              console.log(destination)
+              console.log(destination);
             }
           }
         } else {
