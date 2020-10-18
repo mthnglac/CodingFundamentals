@@ -1,11 +1,11 @@
 export default class BreadthFirstSearch {
-  private adjacencyList: Map<string, string>;
+  private adjacencyList: Map<string, string[]>;
   private visited: Set<string>;
   private queue: string[];
 
-  constructor() {
+  constructor(adjacencyList: Map<string, string[]>) {
     this.visited = new Set();
-    this.adjacencyList = new Map();
+    this.adjacencyList = adjacencyList;
     this.queue = [];
   }
 
@@ -15,15 +15,17 @@ export default class BreadthFirstSearch {
     while (this.queue.length > 0) {
       const airport: string | undefined = this.queue.shift();
       if (airport) {
-        const destinations: string | undefined = this.adjacencyList.get(airport);
+        const destinations: string[] | undefined = this.adjacencyList.get(
+          airport
+        );
         if (destinations) {
           for (const destination of destinations) {
-            this.queue.push(destination);
             if (destination === "BKK") {
-              console.log("found it!");
+              console.log("BKK found!!!!");
             } else if (!this.visited.has(destination)) {
               this.visited.add(destination);
               this.queue.push(destination);
+              console.log(destination)
             }
           }
         } else {
@@ -35,6 +37,3 @@ export default class BreadthFirstSearch {
     }
   }
 }
-
-const z: BreadthFirstSearch = new BreadthFirstSearch();
-z.search("PHX");

@@ -1,3 +1,5 @@
+import BreadthFirstSearch from "./BreadthFirstSearch";
+
 export default class App {
   private adjacencyList: Map<string, string[]>;
   private airports: string[];
@@ -33,6 +35,10 @@ export default class App {
     this.routes.forEach((route) => this.addEdge(route[0], route[1]));
 
     console.log(this.adjacencyList);
+    console.log("---------------------");
+
+    const brf: BreadthFirstSearch = new BreadthFirstSearch(this.adjacencyList);
+    brf.search("PHX");
   }
 }
 
