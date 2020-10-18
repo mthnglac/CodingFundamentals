@@ -29,7 +29,7 @@ export default class App {
     this.adjacencyList.get(destination)?.push(origin);
   }
   public clientApp(): void {
-    this.airports.forEach(this.addNode);
+    this.airports.forEach((airport) => this.addNode(airport));
     this.routes.forEach((route) => this.addEdge(route[0], route[1]));
 
     console.log(this.adjacencyList);
