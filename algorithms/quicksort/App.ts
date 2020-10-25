@@ -9,13 +9,13 @@ export default class App {
     right: number
   ): number[] {
     if (array.length > 1) {
-      const index: number = this.partition(array, left, right);
+      const index: number = this.partition(array, left, right); // index returned from partition
 
-      if (left < index - 1) {
+      if (left < index - 1) { // more elements on the left side of the pivot
         this.quicksort(array, left, index - 1);
       }
 
-      if (index < right) {
+      if (index < right) { // more elements on the right side of the pivot
         this.quicksort(array, index, right);
       }
     }
