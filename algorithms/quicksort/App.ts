@@ -1,29 +1,35 @@
 export default class App {
-  public static swap(array, left, right): void {
+  public static swap(array: number[], left: number, right: number): void {
     [array[left], array[right]] = [array[right], array[left]];
   }
 
-  public static quicksort(array: number[]): void {
-    this.quicksort(array, 0, array.length - 1);
-  }
+  public static quicksort(
+    array: number[],
+    left: number,
+    right: number
+  ): number[] {
+    if (array.length > 1) {
+      const index: number = this.partition(array, left, right);
 
-  public static quicksort(array: number[], left: number, right: number): void {
-    if (left >= right) {
-      return;
+      if (left < index - 1) {
+        this.quicksort(array, left, index - 1);
+      }
+
+      if (index < right) {
+        this.quicksort(array, index, right);
+      }
     }
 
-    const pivot: number = array[(left + right) / 2];
-    const index: number = this.partition(array, left, right, pivot);
-    this.quicksort(array, left, index - 1);
-    this.quicksort(array, index, right);
+    return array;
   }
 
   public static partition(
     array: number[],
     left: number,
-    right: number,
-    pivot: number
+    right: number
   ): number {
+    const pivot: number = array[Math.floor((right + left) / 2)]; // middle element
+
     while (left <= right) {
       while (array[left] < pivot) {
         left++;
@@ -34,7 +40,7 @@ export default class App {
       }
 
       if (left <= right) {
-        this.swap(array, left, right);
+        this.swap(array, left, right); //swap two elements
         left++;
         right--;
       }
@@ -42,4 +48,12 @@ export default class App {
 
     return left;
   }
+
+  public static clientApp(): void {
+    const array: number[] = [5, 3, 7, 6, 2, 9];
+    const result: number[] = this.quicksort(array, 0, array.length - 1);
+    console.log(result);
+  }
 }
+
+App.clientApp();
