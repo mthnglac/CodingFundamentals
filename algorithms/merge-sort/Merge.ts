@@ -1,8 +1,8 @@
 export default class Merge {
   public static doYourMerge(left: number[], right: number[]): number[] {
-    let resultArray: number[] = [],
-      leftIndex = 0,
-      rightIndex = 0;
+    let resultArray: number[] = [];
+    let leftIndex: number = 0;
+    let rightIndex: number = 0;
 
     while (leftIndex < left.length && rightIndex < right.length) {
       if (left[leftIndex] < right[rightIndex]) {
