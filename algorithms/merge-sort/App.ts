@@ -1,50 +1,41 @@
 export default class App {
-  public static mergeSort(array: number[]): void {
-    mergeSort(array, new Array<number>(array.length), 0, array.length - 1);
-  }
-
-  public static mergeSort(
-    array: number[],
-    temp: number[],
-    leftStart: number,
-    rightEnd: number
-  ): void {
-    if (leftStart >= rightEnd) {
-      return;
+  public static mergeSort(unsortedArray: number[]): number[] {
+    if (unsortedArray.length <= 1) {
+      return unsortedArray;
     }
-    const middle: number = (leftStart + rightEnd) / 2;
-    mergeSort(array, temp, leftStart, middle);
-    mergeSort(array, temp, middle + 1, rightEnd);
-    mergeHalves(array, temp, leftStart, rightEnd);
+
+    const middle: number = Math.floor(unsortedArray.length / 2);
+
+    const left: number[] = unsortedArray.slice(0, middle);
+    const right: number[] = unsortedArray.slice(middle);
+
+    return this.merge(this.mergeSort(left), this.mergeSort(right));
   }
 
-  public static mergeHalves(
-    array: number[],
-    temp: number[],
-    leftStart: number,
-    rightEnd: number
-  ): void {
-    const leftEnd: number = (rightEnd + leftStart) / 2;
-    const rightStart: number = leftEnd + 1;
-    const size: number = rightEnd - leftStart + 1;
+  public static merge(left: number[], right: number[]): number[] {
+    let resultArray: number[] = [],
+      leftIndex = 0,
+      rightIndex = 0;
 
-    let left: number = leftStart;
-    let right: number = rightStart;
-    let index: number = leftStart;
-
-    while (left < leftEnd && right <= rightEnd) {
-      if (array[left] <= array[right]) {
-        temp[index] = array[left];
-        left++;
+    while (leftIndex < left.length && rightIndex < right.length) {
+      if (left[leftIndex] < right[rightIndex]) {
+        resultArray.push(left[leftIndex]);
+        leftIndex++;
       } else {
-        temp[index] = array[right];
-        right++;
+        resultArray.push(right[rightIndex]);
+        rightIndex++;
       }
-      index++;
     }
 
-
+    return resultArray
+      .concat(left.slice(leftIndex))
+      .concat(right.slice(rightIndex));
   }
 
-  public static clientApp(): void {}
+  public static clientApp(): void {
+    const sampleArray: number[] = [1, -2, 5, 0, 79, 27, 2, 48, 2, 44, 121];
+    console.log(this.mergeSort(sampleArray));
+  }
 }
+
+App.clientApp();
